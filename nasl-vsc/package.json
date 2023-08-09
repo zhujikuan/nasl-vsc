@@ -1,0 +1,25 @@
+{
+  "name": "nasl-vsc",
+  "displayName": "nasl-vsc",
+  "description": "nasl script language plugin for vscode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "nasl",
+      "aliases": ["NASL", "nasl"],
+      "extensions": [".nasl .inc .vvsl"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "nasl",
+      "scopeName": "source.nasl",
+      "path": "./syntaxes/NASL.tmLanguage"
+    }]
+  }
+}

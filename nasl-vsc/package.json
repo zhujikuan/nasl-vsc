@@ -10,16 +10,27 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "nasl",
-      "aliases": ["NASL", "nasl"],
-      "extensions": [".nasl .inc .vvsl"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "nasl",
-      "scopeName": "source.nasl",
-      "path": "./syntaxes/NASL.tmLanguage"
-    }]
+    "languages": [
+      {
+        "id": "nasl",
+        "aliases": [
+          "NASL",
+          "nasl"
+        ],
+        "extensions": [
+          ".nasl",
+          ".inc",
+          ".vvsl"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "nasl",
+        "scopeName": "source.nasl",
+        "path": "./syntaxes/NASL.tmLanguage"
+      }
+    ]
   }
 }
